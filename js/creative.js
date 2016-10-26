@@ -74,5 +74,12 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+    
+     // Lightbox behaviors
+    $("a[href='#waitlist']").click(function(){
+        $(".lightbox").addClass("lightbox-active").click(function() {
+            $(".lightbox-active").removeClass("lightbox-active");
+        });
+    });
 
 })(jQuery); // End of use strict
