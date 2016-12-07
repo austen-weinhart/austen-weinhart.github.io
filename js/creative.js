@@ -74,12 +74,28 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
-    
+
      // Lightbox behaviors
     $("a[href='#waitlist']").click(function(){
         $(".lightbox").addClass("lightbox-active").click(function() {
             $(".lightbox-active").removeClass("lightbox-active");
         });
     });
+
+    $(".bio").hide();
+    // $(".oliver-img").find("img").mouseenter(function() {
+    //     $(".oliver-bio").show();
+    //     $(".austen-img").hide();
+    // }).mouseout(function() {
+    //     $(".oliver-bio").hide();
+    //     $(".austen-img").show();
+    // });
+    // $(".austen-img").find("img").mouseenter(function() {
+    //     $(".austen-bio").show();
+    //     $(".oliver-img").hide();
+    // }).mouseout(function() {
+    //     $(".austen-bio").hide();
+    //     $(".oliver-img").show();
+    // });
 
 })(jQuery); // End of use strict
