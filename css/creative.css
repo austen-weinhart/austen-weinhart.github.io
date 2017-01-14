@@ -192,7 +192,7 @@ header .header-content .header-content-inner p {
     .service-box .fa-4x {
         font-size: 2.4em;
     }
-    
+
     .service-container {
         padding: 0 !important;
     }
@@ -441,6 +441,7 @@ body {
     width: 300px;
     display: block;
     margin: 25px auto;
+    border-radius: 50%;
 }
 
 .main-logo {
