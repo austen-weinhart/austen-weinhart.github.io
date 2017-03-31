@@ -8,7 +8,10 @@ $(function() {
       }
     );
 
-    $( "#start-some-good" ).hide().delay( 800 ).fadeIn( 600 );
+    if ( $(".desktop-signal").is(":visible") ) {
+      $( "#start-some-good" ).hide().delay( 800 ).fadeIn( 600 );
+    }
+
     $("#close-button").click(function() {
       $( "#start-some-good" ).fadeOut( 600 );
     });

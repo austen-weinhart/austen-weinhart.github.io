@@ -126,7 +126,10 @@ footer {
         height: 70%;
     }
 
-    #tubular-container, #tubular-player {
+    #tubular-container,
+    #tubular-player,
+    #start-some-good,
+    .desktop-signal {
       display: none;
     }
 }
@@ -376,4 +379,10 @@ p.subscribe-footer-text, p.intro-text {
 
 .large-image {
   width: 100%;
+}
+
+.mobile-signal, .desktop-signal {
+  height: 0;
+  padding: 0;
+  margin: 0;
 }
