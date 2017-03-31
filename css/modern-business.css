@@ -35,6 +35,14 @@ img {
     margin-bottom: 30px;
 }
 
+.img-portfolio h3 {
+  text-align: center;
+}
+
+.img-portfolio img {
+  border-radius: 7px;
+}
+
 .img-hover:hover {
     opacity: 0.8;
 }
@@ -118,7 +126,7 @@ footer {
         height: 70%;
     }
 
-    #bg-video {
+    #tubular-container, #tubular-player {
       display: none;
     }
 }
@@ -215,14 +223,6 @@ footer {
   margin-left: 10px;
 }
 
-#bg-video {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
-}
-
 .white-text, h1.page-header.white-text {
   color: #ffffff !important;
 }
@@ -269,6 +269,7 @@ footer {
 
 .landing-video {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .screen-section {
@@ -348,4 +349,31 @@ p.subscribe-footer-text, p.intro-text {
 
 .media-heading {
   padding-top: 15px;
+}
+
+.social-section {
+  text-align: center;
+}
+
+.social-section .fa {
+  color: #ffffff;
+}
+
+.social-section .subscribe-btn {
+  margin-bottom: 15px;
+}
+
+.waitlist-container {
+  text-align: center;
+}
+
+.portfolio-text {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14pt;
+}
+
+.large-image {
+  width: 100%;
 }

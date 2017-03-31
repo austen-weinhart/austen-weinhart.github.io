@@ -30,8 +30,9 @@
 </head>
 
 <body>
+  <div id="wrapper">
 
-    <iframe id="bg-video"src="https://player.vimeo.com/video/204603508?background=1&autoplay=1&loop=1" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <!-- <iframe id="bg-video"src="https://player.vimeo.com/video/204603508?background=1&autoplay=1&loop=1" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
     <!-- <div id="start-some-good">
       <img id="close-button" src="images/close-button.png">
       <iframe width="380" height="485" src="https://startsomegood.com/projects/coding-autism-training-adults-with-autism-in-code/widget" frameborder="0"></iframe>
@@ -93,8 +94,8 @@
         <div class="row blue-bg screen-section">
             <div class="col-lg-12">
                 <div class="landing-video-container">
-                  <!-- <iframe class="landing-video" src="https://player.vimeo.com/video/204603508" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-                  <img src="images/coding-autism-group-photo.jpg">
+                  <iframe class="landing-video" width="560" height="315" src="https://www.youtube.com/embed/gVybQJSNlS4" frameborder="0" allowfullscreen></iframe>
+                  <!-- <img src="images/coding-autism-group-photo.jpg"> -->
                 </div>
                 <h3 class="white-text intro-text">Welcome to Coding Autism!</h3>
                 <p class="white-text intro-text">Coding Autism is a full-service professional coaching and training company that trains adults on the autism spectrum in professional skills such as software engineering, quality assurance, and web development. We also assist our graduates in finding employment within the software and technology industries. We do so by providing services such as immersive programs and bootcamps, resume workshops, career counseling, interview preparation, and coaching/mentorship, all of which is designed around providing an environment where people on the spectrum can thrive.</p>
@@ -130,13 +131,25 @@
       <div class="container white-bg footer-section">
           <!-- Call to Action Section -->
           <div class="well">
-              <div class="row">
-                  <div class="col-md-5 col-md-offset-3">
-                    <p class="subscribe-footer-text">Subscribe to get the latest updates from Coding Autism!</p>
-                  </div>
-                  <div class="col-md-4">
-                      <a class="subscribe-btn btn btn-lg btn-default btn-block" href="http://eepurl.com/cH7Mfn" target="_blank">SUBSCRIBE</a>
-                  </div>
+              <div class="row social-section">
+                <p class="subscribe-footer-text">Subscribe to get the latest updates from Coding Autism!</p>
+                <a class="subscribe-btn btn btn-lg btn-default" href="http://eepurl.com/cH7Mfn" target="_blank">SUBSCRIBE</a>
+              </div>
+              <div class="row social-section">
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/codingautismcom/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/coding-autism"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/codingautism/"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/codingautism/"><i class="fa fa-instagram fa-2x"></i></a>
+                    </li>
+                </ul>
               </div>
           </div>
 
@@ -150,6 +163,7 @@
           </footer>
     </div>
     <!-- /.container -->
+  </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -158,6 +172,11 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/app.js"></script>
+
+    <script src="js/jquery.tubular.1.0.js"></script>
+    <script>
+      $('#wrapper').tubular({videoId: 'gVybQJSNlS4'});
+    </script>
 </body>
 
 </html>
