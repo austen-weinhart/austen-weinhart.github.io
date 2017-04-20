@@ -132,6 +132,10 @@ footer {
     .desktop-signal {
       display: none;
     }
+
+    .press-section img {
+      max-width: 200px;
+    }
 }
 
 @media(min-width: 1200px) {
@@ -385,4 +389,14 @@ p.subscribe-footer-text, p.intro-text {
   height: 0;
   padding: 0;
   margin: 0;
+}
+
+.press-section .col-md-3 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.as-seen-in {
+  text-align: center;
 }
