@@ -400,3 +400,19 @@ p.subscribe-footer-text, p.intro-text {
 .as-seen-in {
   text-align: center;
 }
+
+#video-section.container, .footer-section.container {
+  width: 100%;
+}
+
+.btn-inactive {
+  background-color: #EBEBEB;
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+}
+
+.panel-shadow {
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
