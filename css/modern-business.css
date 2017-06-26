@@ -108,6 +108,11 @@ footer {
     margin: 50px 0;
 }
 
+.b-corp-image {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
@@ -136,24 +141,6 @@ footer {
     .press-section img {
       max-width: 200px;
     }
-
-    .b-corp-image {
-      /*display: block;
-      margin: 25px auto 0;
-      max-width: 100px;*/
-      position: absolute;
-      right: 10px;
-      top: 50px;
-      width: 50px;
-    }
-}
-
-@media(min-width:768px) {
-  .b-corp-image {
-    position: absolute;
-    right: 50px;
-    top: 50px;
-  }
 }
 
 @media(min-width: 1200px) {
