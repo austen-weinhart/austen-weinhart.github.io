@@ -113,6 +113,20 @@ footer {
   margin: 0 auto;
 }
 
+.about-text {
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.about-text:hover {
+  background-color: #007dc5;
+}
+
+.about-person-text {
+  max-height: 278px;
+  overflow-y: scroll;
+  color: #ffffff;
+}
 /* Responsive Styles */
 
 @media(max-width:991px) {
