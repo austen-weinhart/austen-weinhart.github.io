@@ -435,3 +435,23 @@ p.subscribe-footer-text, p.intro-text {
   -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
+
+#ca-promo-banner {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  padding: 15px 25px;
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.mit-button {
+  margin: 0 25px;
+}
