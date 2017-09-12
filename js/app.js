@@ -1,5 +1,5 @@
 $(function() {
-    $("#ca-promo-banner").hide().fadeIn( 3000 );
+    $("#ca-promo-banner").hide().fadeIn(1000);
     $(window).scroll(function() {
       $("#ca-promo-banner").hide();
     });
@@ -24,14 +24,14 @@ $(function() {
       }
     });
 
-    $(".about-person-text").hide();
-    $(".about-text").hover(
-      function() {
-        $( this ).find(".about-person").hide();
-        $( this ).find(".about-person-text").show();
-      }, function() {
-        $( this ).find(".about-person").show();
-        $( this ).find(".about-person-text").hide();
-      }
-    );
+    // $(".about-person-text").hide();
+    // $(".about-text").hover(
+    //   function() {
+    //     $( this ).find(".about-person").hide();
+    //     $( this ).find(".about-person-text").show();
+    //   }, function() {
+    //     $( this ).find(".about-person").show();
+    //     $( this ).find(".about-person-text").hide();
+    //   }
+    // );
 });

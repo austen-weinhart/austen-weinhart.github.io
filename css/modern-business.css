@@ -118,14 +118,23 @@ footer {
   border-radius: 0;
 }
 
-.about-text:hover {
-  background-color: #007dc5;
-}
-
 .about-person-text {
   max-height: 278px;
   overflow-y: scroll;
-  color: #ffffff;
+  color: #000000;
+}
+
+.media-body {
+  padding-left: 15px;
+}
+
+.media-object {
+  min-width: 150px;
+  border-radius: 50%;
+}
+
+.bold {
+  font-weight: bold;
 }
 /* Responsive Styles */
 
