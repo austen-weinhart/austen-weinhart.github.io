@@ -464,3 +464,7 @@ p.subscribe-footer-text, p.intro-text {
 .mit-button {
   margin: 0 25px;
 }
+
+.center-align {
+  text-align: center;
+}
