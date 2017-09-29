@@ -11,6 +11,11 @@ $(function() {
       }
     );
 
+    $(".show-more").find("a").click(function() {
+      $(this).closest(".panel").addClass("full-panel");
+      $(this).hide();
+    });
+
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -23,15 +28,4 @@ $(function() {
           }
       }
     });
-
-    // $(".about-person-text").hide();
-    // $(".about-text").hover(
-    //   function() {
-    //     $( this ).find(".about-person").hide();
-    //     $( this ).find(".about-person-text").show();
-    //   }, function() {
-    //     $( this ).find(".about-person").show();
-    //     $( this ).find(".about-person-text").hide();
-    //   }
-    // );
 });
