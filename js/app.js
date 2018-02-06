@@ -1,8 +1,4 @@
 $(function() {
-    $("#ca-promo-banner").hide().fadeIn(1000);
-    $(window).scroll(function() {
-      $("#ca-promo-banner").hide();
-    });
     $(".logo-text").hover(
       function() {
         $( this ).attr("src", "images/coding-autism-logo-text-092916.png");
